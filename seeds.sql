@@ -1,4 +1,3 @@
-  
 USE employeeDB;
 
 -- DEPARTMENTS --
@@ -15,7 +14,7 @@ INSERT INTO role (title, salary, department_id) VALUES ("AVP", 15, 3);
 
 
 -- EMPLOYEES --
-INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES ("Nick", "AA", 1, null);
+INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES ("Nick", "AA", 1, 3);
 INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES ("Pick", "BB", 2, 1);
 INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES ("Lick", "CC", 3, 2);
 INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES ("Sick", "DD", 4, 1);

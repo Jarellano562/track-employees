@@ -1,0 +1,28 @@
+{
+  "name": "track-employees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodeman server.js",
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarellano562/track-employees.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jarellano562/track-employees/issues"
+  },
+  "homepage": "https://github.com/Jarellano562/track-employees#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "nodeman": "^1.1.2",
+    "seed": "^0.4.4"
+  }
+}
