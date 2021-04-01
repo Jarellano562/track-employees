@@ -238,6 +238,7 @@ async function mainPrompt() {
                     "Add a Department",
                     "Add a Role",
                     "Add an Employee",
+                    "Remove Employee",
                     "Exit"
                 ]
             }
